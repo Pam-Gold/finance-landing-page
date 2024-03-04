@@ -1,0 +1,220 @@
+import "../App.css";
+import { motion } from "framer-motion";
+import StoreButton from "../components/StoreButton";
+
+// Illustrations
+
+// import { transactionIllustration } from "/src/assets/images/undraw_online_transactions_-02-ka.svg";
+
+const Home = () => {
+  return (
+    <main className="h-[350vh] w-full bg-slate-900 pt-[50px]">
+      <section className=" w-full bg-white flex sm: flex-col sm: h-[1050px] md: flex-col md: h-[800px] lg:flex-row lg:h-[600px] xl:flex-row xl:h-[600px]">
+        <div className="bg-white flex flex-col gap-x-[25px] p-[15px] sm: h-1/2 sm: w-full md :h-1/2 md: w-full lg:h-full lg:w-[60%] xl:h-full xl:w-[60%]">
+          <h1 className="font-bold font-madimi-one sm: text-[2rem] md: text-[2.1rem] lg:text-[3rem] xl:text-[3.2rem]">
+            Get Started with our intuitive platform that covers
+            <div className="cta-animate-wrapper">
+              <span>Online Banking.</span>
+              <span>Saving.</span>
+              <span>Security.</span>
+              <span>Transfers.</span>
+              <span>Accesibility.</span>
+              <span>Online Banking.</span>
+              {/* <span>Online Banking.</span> */}
+            </div>
+          </h1>
+          {/*  */}
+
+          <p className="sm: text-[16px] md: text-[18px] lg:text-[1.1rem] xl:text-[1.3rem] text-[dimgrey] mt-[45px] font-poppins font-madimi-one">
+            Join our community of satisfied customers and experience banking
+            that puts you first.
+          </p>
+
+          <div className="flex gap-x-[25px] items-center mt-[50px]">
+            <StoreButton
+              image="https://img.icons8.com/?size=48&id=L1ws9zn2uD01&format=png"
+              store="Google Play"
+              downloadTag="GET IT ON"
+              link="https://play.google.com/store/apps?hl=en&gl=US&pli=1"
+            />
+
+            <StoreButton
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Apple_Store_logo.svg/512px-Apple_Store_logo.svg.png"
+              store="App Store"
+              downloadTag="Download on the"
+              link="https://www.apple.com/app-store/"
+            />
+          </div>
+        </div>
+        <div className=" flex justify-center items-center sm: h-1/2 sm: w-full md: h-1/2 md: w-full lg:h-[100%] lg:w-[40%] xl:h-[100%] xl:w-[40%] ">
+          <div className="bg-black p-[10px] h-[300px] w-[300px] rounded-[50%] lg:h-[350px] lg:w-[350px] xl:h-[400px] xl:w-[400px] ">
+            {/* <img
+              src={transactionIllustration}
+              alt=""
+              className="h-full w-full rounded-[50%]"
+            /> */}
+
+            <motion.img
+              whileInView={{ scale: 1.1 }}
+              transition={{ duration: 0.3 }}
+              initial={{ scale: 0.8 }}
+              src="/src/assets/images/undraw_online_transactions_-02-ka.svg"
+              alt=""
+              className="h-full w-full"
+            />
+          </div>
+        </div>
+      </section>
+
+      <motion.section
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.2, staggerChildren: 0.5 }}
+        className="bg-[#000] p-[12px] py-[50px] gap-[35px] h-[fit-content] w-full flex flex-wrap justify-center items-center features"
+      >
+        <div className="h-[100px] w-[310px] bg-white flex items-center rounded-md justify-between p-[8px] gap-x-[20px]">
+          <span className="h-[30px] w-[30px] rounded-[50%] bg-[#F9A826] text-white flex justify-center items-center ">
+            <i className="fa-solid fa-credit-card"></i>
+          </span>{" "}
+          <h4 className="text-black text-[13.5px] font-bold font-roboto w-[250px]">
+            Dicover our exclusive credit card offers & enjoy great rewards
+          </h4>
+        </div>
+        {/*  */}
+        <div className="h-[100px] w-[310px] bg-white flex items-center rounded-md justify-between p-[8px] gap-x-[20px]">
+          <span className="h-[30px] w-[30px] rounded-[50%] bg-[#F9A826] text-white flex justify-center items-center">
+            <i className="fa-solid fa-piggy-bank"></i>
+          </span>{" "}
+          <h4 className="text-black text-[13.5px] font-bold font-roboto w-[250px]">
+            Start Saving more with our annual savings program
+          </h4>
+        </div>
+        <div className="h-[100px] w-[310px] bg-white flex items-center rounded-md justify-between p-[8px] gap-x-[20px]">
+          <span className="h-[30px] w-[30px] rounded-[50%] bg-[#F9A826] text-white flex justify-center items-center">
+            <i className="fa-solid fa-network-wired"></i>
+          </span>{" "}
+          <h4 className="text-black font-bold text-[13.5px] font-roboto w-[250px]">
+            Payment Integration with multiple popular Saas applications
+          </h4>
+        </div>
+      </motion.section>
+
+      <section className="w-full bg-white p-[12px] flex justify-between items-center sm: flex-col sm: h-[fit-content] md: flex-col md: h-[fit-content] lg:flex-row lg:h-[600px]  xl:flex-row xl:h-[600px] ">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className=" flex flex-col gap-y-[35px] h-[350px] p-[12px] w-350px sm: w-full md: w-full"
+        >
+          <h1 className="text-[2rem] text-black font-madimi-one">01</h1>
+          <h3 className="text-lg text-[#111] font-bold font-madimi-one">
+            Registration/Login
+          </h3>
+          <p className="text-md text-[dimgrey] font-bold font-madimi-one">
+            You'll need to register or login by providing your account details &
+            personal information.
+          </p>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className=" flex flex-col gap-y-[35px] h-[350px] p-[12px] w-350px sm: w-full md: w-full"
+        >
+          <h1 className="text-[2rem] text-black font-madimi-one">02</h1>
+          <h3 className="text-lg text-[#111] font-bold font-madimi-one">
+            Verification
+          </h3>
+          <p className="text-md text-[dimgrey] font-bold font-madimi-one">
+            Some Banks may require additional verification steps, such as
+            confirming your identity through SMS, Email or Face Id
+          </p>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className=" flex flex-col gap-y-[35px] h-[350px] p-[12px] w-350px sm: w-full md: w-full"
+        >
+          <h1 className="text-[2rem] text-black font-madimi-one">03</h1>
+          <h3 className="text-lg text-[#111] font-bold font-madimi-one">
+            Account Linking
+          </h3>
+          <p className="text-md text-[dimgrey] font-bold font-madimi-one">
+            Link your bank accounts to the app by providing the necessary
+            information, such as your account number & any security codes
+            provided by your bank.
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className=" flex flex-col gap-y-[35px] h-[350px] p-[12px] w-350px sm: w-full md: w-full"
+        >
+          <h1 className="text-[2rem] text-black font-madimi-one">04</h1>
+          <h3 className="text-lg text-[#111] font-bold font-madimi-one">
+            You are good to go
+          </h3>
+          <p className="text-md text-[dimgrey] font-bold font-madimi-one">
+            Setup any additional security features such as fingerprint or face
+            id & start using the app to manage your finances conveniently from
+            your mobile device.
+          </p>
+        </motion.div>
+      </section>
+      <section className="h-[fit-content] w-full bg-black flex flex-col justify-between gap-y-[25px] p-[12px]">
+        <h2 className="text-lg font-bold font-madimi-one text-white text-center mt-[20px]">
+          Trusted by nearly 9500+ customers
+        </h2>
+
+        <motion.div
+          initial={{ scale: 1 }}
+          whileInView={{ scale: 0.8 }}
+          transition={{ duration: 0.6 }}
+          className="h-[fit-content] py-[50px] w-full   flex flex-wrap justify-center items-center gap-[40px]"
+        >
+          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+            <img
+              src="https://companieslogo.com/img/orig/V.D-e36aebe0.png?t=1633206554"
+              alt=""
+            />
+          </div>
+          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+            <img
+              src="https://companieslogo.com/img/orig/PYPL_BIG.D-29b40994.png?t=1633695449"
+              alt=""
+            />
+          </div>
+          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+            <img
+              src="https://companieslogo.com/img/orig/SONY_BIG.D-d0326972.png?t=1633223557"
+              alt=""
+            />
+          </div>
+          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+            <img
+              src="https://companieslogo.com/img/orig/NWBI_BIG.D-2b5d9849.png?t=1672289764"
+              alt=""
+            />
+          </div>
+          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+            <img
+              src="https://companieslogo.com/img/orig/META_BIG.D-db66a9c7.png?t=1654568366"
+              alt=""
+            />
+          </div>
+          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+            <img
+              src="https://companieslogo.com/img/orig/COIN_BIG.D-9462861a.png?t=1648737284"
+              alt=""
+            />
+          </div>
+        </motion.div>
+      </section>
+    </main>
+  );
+};
+
+export default Home;

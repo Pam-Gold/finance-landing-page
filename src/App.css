@@ -1,0 +1,274 @@
+.cta-animate-wrapper {
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cta-animate-wrapper span {
+  animation: scrollUp 12s ease-in-out infinite;
+  animation-delay: 1s;
+  color: #F9A826;
+}
+
+.features::-webkit-scrollbar{
+  display: none;
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(-0px);
+  }
+  5% {
+    transform: translateY(-0px);
+  }
+  10% {
+    transform: translateY(-50px);
+  }
+  20% {
+    transform: translateY(-50px);
+  }
+
+  30% {
+    transform: translateY(-100px);
+  }
+
+  40% {
+    transform: translateY(-100px);
+  }
+  50% {
+    transform: translateY(-150px);
+  }
+
+  60% {
+    transform: translateY(-150px);
+  }
+
+  70% {
+    transform: translateY(-200px);
+  }
+
+  80% {
+    transform: translateY(-200px);
+  }
+
+  90% {
+    transform: translateY(-250px);
+  }
+
+  100% {
+    transform: translateY(-250px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cta-animate-wrapper {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  @keyframes scrollUp {
+    0% {
+      transform: translateY(-0px);
+    }
+    5% {
+      transform: translateY(-0px);
+    }
+    10% {
+      transform: translateY(-50px);
+    }
+    20% {
+      transform: translateY(-50px);
+    }
+
+    30% {
+      transform: translateY(-100px);
+    }
+
+    40% {
+      transform: translateY(-100px);
+    }
+    50% {
+      transform: translateY(-150px);
+    }
+
+    60% {
+      transform: translateY(-150px);
+    }
+
+    70% {
+      transform: translateY(-200px);
+    }
+
+    80% {
+      transform: translateY(-200px);
+    }
+
+    90% {
+      transform: translateY(-250px);
+    }
+
+    100% {
+      transform: translateY(-250px);
+    }
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .cta-animate-wrapper {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  @keyframes scrollUp {
+    0% {
+      transform: translateY(-0px);
+    }
+    5% {
+      transform: translateY(-0px);
+    }
+    10% {
+      transform: translateY(-50px);
+    }
+    20% {
+      transform: translateY(-50px);
+    }
+
+    30% {
+      transform: translateY(-100px);
+    }
+
+    40% {
+      transform: translateY(-100px);
+    }
+    50% {
+      transform: translateY(-150px);
+    }
+
+    60% {
+      transform: translateY(-150px);
+    }
+
+    70% {
+      transform: translateY(-200px);
+    }
+
+    80% {
+      transform: translateY(-200px);
+    }
+
+    90% {
+      transform: translateY(-250px);
+    }
+
+    100% {
+      transform: translateY(-250px);
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .cta-animate-wrapper {
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  @keyframes scrollUp {
+    0% {
+      transform: translateY(-0px);
+    }
+    5% {
+      transform: translateY(-65px);
+    }
+    10% {
+      transform: translateY(-65px);
+    }
+    20% {
+      transform: translateY(-130px);
+    }
+
+    30% {
+      transform: translateY(-130px);
+    }
+
+    40% {
+      transform: translateY(-195px);
+    }
+    50% {
+      transform: translateY(-195px);
+    }
+
+    60% {
+      transform: translateY(-260px);
+    }
+
+    70% {
+      transform: translateY(-260px);
+    }
+
+    80% {
+      transform: translateY(-325px);
+    }
+
+    100% {
+      transform: translateY(-325px);
+    }
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cta-animate-wrapper {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  @keyframes scrollUp {
+    0% {
+      transform: translateY(-0px);
+    }
+    5% {
+      transform: translateY(-0px);
+    }
+    10% {
+      transform: translateY(-75px);
+    }
+    20% {
+      transform: translateY(-75px);
+    }
+
+    30% {
+      transform: translateY(-150px);
+    }
+
+    40% {
+      transform: translateY(-150px);
+    }
+    50% {
+      transform: translateY(-225px);
+    }
+
+    60% {
+      transform: translateY(-225px);
+    }
+
+    70% {
+      transform: translateY(-305px);
+    }
+    80% {
+      transform: translateY(-305px);
+    }
+
+    90% {
+      transform: translateY(-380px);
+    }
+
+    100% {
+      transform: translateY(-380px);
+    }
+  }
+}
