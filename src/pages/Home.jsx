@@ -251,19 +251,7 @@ const Home = () => {
         </div>
       </section>
       {/*  */}
-<section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
-<div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-start xl:justify-start sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
-          <motion.div
-            className="h-[300px] w-[300px] rounded-[50%]"
-            initial={{ x: 80 }}
-            whileInView={{ x: 0 }}
-            transition={{ duration: 1.1, delay: 0.2 }}
-          >
-            <img src={transactionFeature} alt="" className="h-full w-full " />
-          </motion.div>
-        </div>
-        {/*  */}
-
+      <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
         <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
           <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
           Effortless Transactions: Manage Your Finances with Ease – Start Now!
@@ -279,14 +267,24 @@ const Home = () => {
           </a>
         </div>
 
-      
-     
+        {/*  */}
+        <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-center xl:justify-center sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <motion.div
+            className="h-[300px] w-[300px] rounded-[50%]"
+            initial={{ scale:0.6 }}
+            whileInView={{ scale: 1 }}
+            transition={{ duration: 1.1, delay: 0.2 }}
+          >
+            <img src={transactionFeature} alt="" className="h-full w-full " />
+          </motion.div>
+        </div>
       </section>
       {/*  */}
-      <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+
+<section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
         <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
           <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
-          Grow Your Wealth: Discover Our Savings Solutions 
+          Grow Your Wealth: Discover Our Savings Solutions Today!
           </h2>
           <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum et
@@ -312,19 +310,7 @@ const Home = () => {
         </div>
       </section>
       {/*  */}
-      <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
-<div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-start xl:justify-start sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
-          <motion.div
-            className="h-[300px] w-[300px] rounded-[50%]"
-            initial={{ x: 80 }}
-            whileInView={{ x: 0 }}
-            transition={{ duration: 1.1, delay: 0.2 }}
-          >
-            <img src={authenticationFeature} alt="" className="h-full w-full " />
-          </motion.div>
-        </div>
-        {/*  */}
-
+      <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
         <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
           <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
           Protect Your Finances: Activate Secure Authentication Now!
@@ -340,10 +326,19 @@ const Home = () => {
           </a>
         </div>
 
-      
-     
+        {/*  */}
+        <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-center xl:justify-center sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <motion.div
+            className="h-[300px] w-[300px] rounded-[50%]"
+            initial={{ scale:0.6 }}
+            whileInView={{ scale: 1 }}
+            transition={{ duration: 1.1, delay: 0.2 }}
+          >
+            <img src={authenticationFeature} alt="" className="h-full w-full " />
+          </motion.div>
+        </div>
       </section>
-      
+      {/*  */}
 </div>
     </main>
   );
