@@ -3,8 +3,12 @@ import { motion } from "framer-motion";
 import StoreButton from "../components/StoreButton";
 
 // Illustrations
-import appBg from '../assets/images/Home.png'
-import appBg2 from '../assets/images/History.png'
+import appBg from "../assets/images/Home.png";
+import appBg2 from "../assets/images/History.png";
+import mobileFeature from "../assets/images/undraw_mobile_pay_re_sjb8.svg";
+import transactionFeature from "../assets/images/undraw_online_transactions_-02-ka.svg";
+import savingFeature from "../assets/images/undraw_investing_re_bov7.svg";
+import authenticationFeature from "../assets/images/undraw_two_factor_authentication_namy.svg";
 
 const Home = () => {
   return (
@@ -48,9 +52,6 @@ const Home = () => {
         </div>
         <div className=" flex justify-center items-center sm: h-1/2 sm: w-full md: h-1/2 md: w-full lg:h-[100%] lg:w-[40%] xl:h-[100%] xl:w-[40%] ">
           <div className="p-[10px] h-[80%] relative">
-         
-
-        
             <motion.img
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.6 }}
@@ -58,17 +59,14 @@ const Home = () => {
               src={appBg}
               alt=""
               className="h-full w-full shadow-md relative "
-              
             />
             <motion.img
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.6 }}
               initial={{ scale: 0.6 }}
-              
               src={appBg2}
               alt=""
               className="h-[80%] w-[200px] shadow-md absolute top-[25%] left-[70px] z-[20]"
-              
             />
           </div>
         </div>
@@ -111,7 +109,7 @@ const Home = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1, delay: 0.2 }}
           className=" flex flex-col gap-y-[35px] h-[350px] p-[12px] w-350px sm: w-full md: w-full"
         >
           <h1 className="text-[2rem] text-black font-madimi-one">01</h1>
@@ -126,7 +124,7 @@ const Home = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1, delay: 0.2 }}
           className=" flex flex-col gap-y-[35px] h-[350px] p-[12px] w-350px sm: w-full md: w-full"
         >
           <h1 className="text-[2rem] text-black font-madimi-one">02</h1>
@@ -141,7 +139,7 @@ const Home = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1, delay: 0.2 }}
           className=" flex flex-col gap-y-[35px] h-[350px] p-[12px] w-350px sm: w-full md: w-full"
         >
           <h1 className="text-[2rem] text-black font-madimi-one">03</h1>
@@ -158,7 +156,7 @@ const Home = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1, delay: 0.2 }}
           className=" flex flex-col gap-y-[35px] h-[350px] p-[12px] w-350px sm: w-full md: w-full"
         >
           <h1 className="text-[2rem] text-black font-madimi-one">04</h1>
@@ -221,6 +219,132 @@ const Home = () => {
           </div>
         </motion.div>
       </section>
+
+<div className="flex flex-col h-[fit-content] w-full gap-y-[25px]">
+  
+<section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+        <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+            Bank Anywhere, Anytime: Download Our Mobile App Now!
+          </h2>
+          <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum et
+            molestias dignissimos autem facere? Ipsa, doloremque. Inventore esse
+            unde ratione.
+          </p>
+
+          <a href="" className="font-bold text-line">
+            Read More
+          </a>
+        </div>
+
+        {/*  */}
+        <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-end xl:justify-end sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <motion.div
+            className="h-[300px] w-[300px] rounded-[50%]"
+            initial={{ x: -80 }}
+            whileInView={{ x: 0 }}
+            transition={{ duration: 1.1, delay: 0.2 }}
+          >
+            <img src={mobileFeature} alt="" className="h-full w-full " />
+          </motion.div>
+        </div>
+      </section>
+      {/*  */}
+<section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+<div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-start xl:justify-start sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <motion.div
+            className="h-[300px] w-[300px] rounded-[50%]"
+            initial={{ x: 80 }}
+            whileInView={{ x: 0 }}
+            transition={{ duration: 1.1, delay: 0.2 }}
+          >
+            <img src={transactionFeature} alt="" className="h-full w-full " />
+          </motion.div>
+        </div>
+        {/*  */}
+
+        <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+          Effortless Transactions: Manage Your Finances with Ease – Start Now!
+          </h2>
+          <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum et
+            molestias dignissimos autem facere? Ipsa, doloremque. Inventore esse
+            unde ratione.
+          </p>
+
+          <a href="" className="font-bold text-line">
+            Read More
+          </a>
+        </div>
+
+      
+     
+      </section>
+      {/*  */}
+      <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+        <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+          Grow Your Wealth: Discover Our Savings Solutions 
+          </h2>
+          <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum et
+            molestias dignissimos autem facere? Ipsa, doloremque. Inventore esse
+            unde ratione.
+          </p>
+
+          <a href="" className="font-bold text-line">
+            Read More
+          </a>
+        </div>
+
+        {/*  */}
+        <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-end xl:justify-end sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <motion.div
+            className="h-[300px] w-[300px] rounded-[50%]"
+            initial={{ x: -80 }}
+            whileInView={{ x: 0 }}
+            transition={{ duration: 1.1, delay: 0.2 }}
+          >
+            <img src={savingFeature} alt="" className="h-full w-full " />
+          </motion.div>
+        </div>
+      </section>
+      {/*  */}
+      <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+<div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-start xl:justify-start sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <motion.div
+            className="h-[300px] w-[300px] rounded-[50%]"
+            initial={{ x: 80 }}
+            whileInView={{ x: 0 }}
+            transition={{ duration: 1.1, delay: 0.2 }}
+          >
+            <img src={authenticationFeature} alt="" className="h-full w-full " />
+          </motion.div>
+        </div>
+        {/*  */}
+
+        <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+          Protect Your Finances: Activate Secure Authentication Now!
+          </h2>
+          <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum et
+            molestias dignissimos autem facere? Ipsa, doloremque. Inventore esse
+            unde ratione.
+          </p>
+
+          <a href="" className="font-bold text-line">
+            Read More
+          </a>
+        </div>
+
+      
+     
+      </section>
+      
+</div>
     </main>
   );
 };
