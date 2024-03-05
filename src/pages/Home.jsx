@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import StoreButton from "../components/StoreButton";
 
 // Illustrations
-import appBg from '../assets/images/bank-app-illustration4.svg'
-import appBg2 from '../assets/images/bank-app-illustration5.svg'
+import appBg from '../assets/images/Home.png'
+
 const Home = () => {
   return (
     <main className="h-[350vh] w-full bg-slate-900 pt-[50px]">
@@ -46,29 +46,17 @@ const Home = () => {
           </div>
         </div>
         <div className=" flex justify-center items-center sm: h-1/2 sm: w-full md: h-1/2 md: w-full lg:h-[100%] lg:w-[40%] xl:h-[100%] xl:w-[40%] ">
-          <div className="relative p-[10px] h-[310px] w-[310px]  rounded-[50%] lg:h-[350px] lg:w-[350px] xl:h-[400px] xl:w-[400px] ">
-            {/* <img
-              src={transactionIllustration}
-              alt=""
-              className="h-full w-full rounded-[50%]"
-            /> */}
+          <div className="p-[10px] h-[80%] ">
+         
 
+        
             <motion.img
-              whileInView={{ scale: 1.1 }}
+              whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              initial={{ scale: 1 }}
+              initial={{ scale: 0.8 }}
               src={appBg}
               alt=""
-              className="h-[300px] absolute top-0 sm: w-[120px] sm: right-[30px] md:  w-[300px] md: right-[130px] lg:w-[300px] lg:right-[50px] xl:w-[200px] xl:right-[50px]"
-              
-            />
-            <motion.img
-              whileInView={{ scale: 1.1 }}
-              transition={{ duration: 0.3 }}
-              initial={{ scale: 1 }}
-              src={appBg2}
-              alt=""
-              className="h-[300px] absolute top-1/4  sm: left-[30px] sm: w-[120px] md: left-[60px] md: w-[300px] lg:left-[80px] lg:w-[300px] xl:w-[200px] xl:left-[50px]"
+              className="h-full w-full shadow-md"
               
             />
           </div>
