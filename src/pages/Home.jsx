@@ -52,21 +52,22 @@ const Home = () => {
 
         
             <motion.img
-              whileInView={{ scale: 1, zIndex:8 }}
+              whileInView={{ scale: 1 }}
               transition={{ duration: 0.6 }}
               initial={{ scale: 0.6 }}
               src={appBg}
               alt=""
-              className="h-full w-full shadow-md relative z-[5]"
+              className="h-full w-full shadow-md relative "
               
             />
             <motion.img
-              whileInView={{ scale: 1, zIndex:10 }}
+              whileInView={{ scale: 1 }}
               transition={{ duration: 0.6 }}
               initial={{ scale: 0.6 }}
+              
               src={appBg2}
               alt=""
-              className="h-[80%] w-[200px] shadow-md absolute top-[25%] left-[70px] z-[2]"
+              className="h-[80%] w-[200px] shadow-md absolute top-[25%] left-[70px] z-[20]"
               
             />
           </div>
