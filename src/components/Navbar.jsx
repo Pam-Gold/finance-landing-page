@@ -54,7 +54,7 @@ const Navbar = () => {
       </div>
 <AnimatePresence>
       {menu && <motion.div initial={{scale:0}} animate={{scale:1}} transition={{duration:0.2}} exit={{scale:0}} className=" z-30 h-full w-full fixed top-0 left-0 right-0 bottom-0 bg-black flex lg:hidden xl:hidden">
-<i className="fa-solid fa-close absolute top-[10px] right-[10px] text-2xl" onTouchStart={closeMenu} onPointerDown={closeMenu} ></i>
+<i className="fa-solid fa-close absolute top-[10px] right-[10px] text-3xl" onTouchStart={closeMenu} onPointerDown={closeMenu} ></i>
       </motion.div>}
       </AnimatePresence>
     </nav>
