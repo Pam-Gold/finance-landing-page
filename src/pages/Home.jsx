@@ -4,6 +4,7 @@ import StoreButton from "../components/StoreButton";
 
 // Illustrations
 import appBg from '../assets/images/Home.png'
+import appBg2 from '../assets/images/History.png'
 
 const Home = () => {
   return (
@@ -46,17 +47,26 @@ const Home = () => {
           </div>
         </div>
         <div className=" flex justify-center items-center sm: h-1/2 sm: w-full md: h-1/2 md: w-full lg:h-[100%] lg:w-[40%] xl:h-[100%] xl:w-[40%] ">
-          <div className="p-[10px] h-[80%] ">
+          <div className="p-[10px] h-[80%] relative">
          
 
         
             <motion.img
-              whileInView={{ scale: 1 }}
-              transition={{ duration: 0.3 }}
-              initial={{ scale: 0.8 }}
+              whileInView={{ scale: 1, zIndex:8 }}
+              transition={{ duration: 0.6 }}
+              initial={{ scale: 0.6 }}
               src={appBg}
               alt=""
-              className="h-full w-full shadow-md"
+              className="h-full w-full shadow-md relative z-[5]"
+              
+            />
+            <motion.img
+              whileInView={{ scale: 1, zIndex:10 }}
+              transition={{ duration: 0.6 }}
+              initial={{ scale: 0.6 }}
+              src={appBg2}
+              alt=""
+              className="h-[80%] w-[200px] shadow-md absolute top-[25%] left-[70px] z-[2]"
               
             />
           </div>
