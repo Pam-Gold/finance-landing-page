@@ -4,8 +4,7 @@ import StoreButton from "../components/StoreButton";
 
 // Illustrations
 
-// import { transactionIllustration } from "/src/assets/images/undraw_online_transactions_-02-ka.svg";
-
+import transactionBg from '../assets/images/undraw_online_transactions_-02-ka.svg'
 const Home = () => {
   return (
     <main className="h-[350vh] w-full bg-slate-900 pt-[50px]">
@@ -58,7 +57,7 @@ const Home = () => {
               whileInView={{ scale: 1.1 }}
               transition={{ duration: 0.3 }}
               initial={{ scale: 0.8 }}
-              src="/src/assets/images/undraw_online_transactions_-02-ka.svg"
+              src={transactionBg}
               alt=""
               className="h-full w-full"
             />
