@@ -59,7 +59,7 @@ const Home = () => {
               initial={{ scale: 1 }}
               src={appBg}
               alt=""
-              className="h-[300px] absolute top-0 sm: w-[200px] sm: right-[80px] md:  w-[300px] md: right-[130px] lg:w-[300px] lg:right-[130px] xl:w-[300px] xl:right-[130px]"
+              className="h-[300px] absolute top-0 sm: w-[120px] sm: right-[30px] md:  w-[300px] md: right-[130px] lg:w-[300px] lg:right-[50px] xl:w-[200px] xl:right-[50px]"
               
             />
             <motion.img
@@ -68,7 +68,7 @@ const Home = () => {
               initial={{ scale: 1 }}
               src={appBg2}
               alt=""
-              className="h-[300px] w-[300px] absolute top-1/4  sm: left-[30px] sm: w-[200px] md: left-[60px] lg:left-[80px] xl:left-[120px]"
+              className="h-[300px] absolute top-1/4  sm: left-[30px] sm: w-[120px] md: left-[60px] md: w-[300px] lg:left-[80px] lg:w-[300px] xl:w-[200px] xl:left-[50px]"
               
             />
           </div>
