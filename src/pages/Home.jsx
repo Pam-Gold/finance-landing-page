@@ -3,13 +3,14 @@ import { motion } from "framer-motion";
 import StoreButton from "../components/StoreButton";
 
 // Illustrations
-import transactionBg from '../assets/images/undraw_online_transactions_-02-ka.svg'
+import appBg from '../assets/images/bank-app-illustration4.svg'
+import appBg2 from '../assets/images/bank-app-illustration5.svg'
 const Home = () => {
   return (
     <main className="h-[350vh] w-full bg-slate-900 pt-[50px]">
-      <section className=" w-full bg-white flex sm: flex-col sm: h-[1050px] md: flex-col md: h-[800px] lg:flex-row lg:h-[600px] xl:flex-row xl:h-[600px]">
+      <section className=" w-full bg-white flex sm: flex-col sm: h-[1200px] md: flex-col md: h-[1000px] lg:flex-row lg:h-[600px] xl:flex-row xl:h-[600px]">
         <div className="bg-white flex flex-col gap-x-[25px] p-[15px] sm: h-1/2 sm: w-full md :h-1/2 md: w-full lg:h-full lg:w-[60%] xl:h-full xl:w-[60%]">
-          <h1 className="font-bold font-madimi-one sm: text-[2rem] md: text-[2.1rem] lg:text-[3rem] xl:text-[3.2rem]">
+          <h1 className="font-bold font-madimi-one sm: text-[2rem] md: text-[2.6rem] lg:text-[3rem] xl:text-[3.2rem]">
             Get Started with our intuitive platform that covers
             <div className="cta-animate-wrapper">
               <span>Online Banking.</span>
@@ -23,7 +24,7 @@ const Home = () => {
           </h1>
           {/*  */}
 
-          <p className="sm: text-[16px] md: text-[18px] lg:text-[1.1rem] xl:text-[1.3rem] text-[dimgrey] mt-[45px] font-poppins font-madimi-one">
+          <p className="sm: text-[16px] md: text-[21px] lg:text-[1.1rem] xl:text-[1.3rem] text-[dimgrey] mt-[45px] font-poppins font-madimi-one">
             Join our community of satisfied customers and experience banking
             that puts you first.
           </p>
@@ -45,7 +46,7 @@ const Home = () => {
           </div>
         </div>
         <div className=" flex justify-center items-center sm: h-1/2 sm: w-full md: h-1/2 md: w-full lg:h-[100%] lg:w-[40%] xl:h-[100%] xl:w-[40%] ">
-          <div className="bg-black p-[10px] h-[300px] w-[300px] rounded-[50%] lg:h-[350px] lg:w-[350px] xl:h-[400px] xl:w-[400px] ">
+          <div className="relative p-[10px] h-[310px] w-[310px]  rounded-[50%] lg:h-[350px] lg:w-[350px] xl:h-[400px] xl:w-[400px] ">
             {/* <img
               src={transactionIllustration}
               alt=""
@@ -55,10 +56,20 @@ const Home = () => {
             <motion.img
               whileInView={{ scale: 1.1 }}
               transition={{ duration: 0.3 }}
-              initial={{ scale: 0.8 }}
-              src={transactionBg}
+              initial={{ scale: 1 }}
+              src={appBg}
               alt=""
               className="h-full w-full"
+              
+            />
+            <motion.img
+              whileInView={{ scale: 1.1 }}
+              transition={{ duration: 0.3 }}
+              initial={{ scale: 1 }}
+              src={appBg2}
+              alt=""
+              className="h-[300px] w-[300px] absolute top-1/4 left-[120px]"
+              
             />
           </div>
         </div>
