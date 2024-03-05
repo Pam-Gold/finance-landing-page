@@ -59,7 +59,7 @@ const Home = () => {
               initial={{ scale: 1 }}
               src={appBg}
               alt=""
-              className="h-full w-full"
+              className="h-[300px] w-[300px] absolute top-0 right-[130px] sm: w-[200px] sm: right-[80px]"
               
             />
             <motion.img
@@ -68,7 +68,7 @@ const Home = () => {
               initial={{ scale: 1 }}
               src={appBg2}
               alt=""
-              className="h-[300px] w-[300px] absolute top-1/4 left-[120px]"
+              className="h-[300px] w-[300px] absolute top-1/4  sm: left-[30px] sm: w-[220px] md: left-[60px] lg:left-[80px] xl:left-[120px]"
               
             />
           </div>
@@ -184,37 +184,37 @@ const Home = () => {
           transition={{ duration: 0.6 }}
           className="h-[fit-content] py-[50px] w-full   flex flex-wrap justify-center items-center gap-[40px]"
         >
-          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+          <div className="h-[100px] w-[120px]  flex justify-center items-center p-[8px]">
             <img
               src="https://companieslogo.com/img/orig/V.D-e36aebe0.png?t=1633206554"
               alt=""
             />
           </div>
-          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+          <div className="h-[100px] w-[120px]  flex justify-center items-center p-[8px]">
             <img
               src="https://companieslogo.com/img/orig/PYPL_BIG.D-29b40994.png?t=1633695449"
               alt=""
             />
           </div>
-          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+          <div className="h-[100px] w-[120px]  flex justify-center items-center p-[8px]">
             <img
               src="https://companieslogo.com/img/orig/SONY_BIG.D-d0326972.png?t=1633223557"
               alt=""
             />
           </div>
-          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+          <div className="h-[100px] w-[120px]  flex justify-center items-center p-[8px]">
             <img
               src="https://companieslogo.com/img/orig/NWBI_BIG.D-2b5d9849.png?t=1672289764"
               alt=""
             />
           </div>
-          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+          <div className="h-[100px] w-[120px]  flex justify-center items-center p-[8px]">
             <img
               src="https://companieslogo.com/img/orig/META_BIG.D-db66a9c7.png?t=1654568366"
               alt=""
             />
           </div>
-          <div className="h-[100px] w-[150px]  flex justify-center items-center p-[8px]">
+          <div className="h-[100px] w-[120px]  flex justify-center items-center p-[8px]">
             <img
               src="https://companieslogo.com/img/orig/COIN_BIG.D-9462861a.png?t=1648737284"
               alt=""
