@@ -59,7 +59,7 @@ const Home = () => {
               initial={{ scale: 1 }}
               src={appBg}
               alt=""
-              className="h-[300px] w-[300px] absolute top-0 right-[130px] sm: w-[200px] sm: right-[80px]"
+              className="h-[300px] absolute top-0 sm: w-[200px] sm: right-[80px] md:  w-[300px] md: right-[130px] lg:w-[300px] lg:right-[130px] xl:w-[300px] xl:right-[130px]"
               
             />
             <motion.img
