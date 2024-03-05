@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import StoreButton from "../components/StoreButton";
 
 // Illustrations
-
 import transactionBg from '../assets/images/undraw_online_transactions_-02-ka.svg'
 const Home = () => {
   return (
