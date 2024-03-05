@@ -68,7 +68,7 @@ const Home = () => {
               initial={{ scale: 1 }}
               src={appBg2}
               alt=""
-              className="h-[300px] w-[300px] absolute top-1/4  sm: left-[30px] sm: w-[220px] md: left-[60px] lg:left-[80px] xl:left-[120px]"
+              className="h-[300px] w-[300px] absolute top-1/4  sm: left-[30px] sm: w-[200px] md: left-[60px] lg:left-[80px] xl:left-[120px]"
               
             />
           </div>
