@@ -181,7 +181,7 @@ const Home = () => {
         <motion.div
           initial={{ scale: 1 }}
           whileInView={{ scale: 0.8 }}
-          transition={{ duration: 0.6, delay:0.3 }}
+          transition={{ duration: 0.6, delay:0.2 }}
           className="h-[fit-content] py-[50px] w-full   flex flex-wrap justify-center items-center gap-[40px]"
         >
           <div className="h-[100px] w-[120px]  flex justify-center items-center p-[8px]">
