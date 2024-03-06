@@ -15,7 +15,7 @@ import supportFeature from "../assets/images/undraw_active_support_re_b7sj.svg";
 import feedbackFeature from "../assets/images/undraw_feedback_re_urmj.svg";
 const Home = () => {
   return (
-    <main className="h-[350vh] w-full bg-slate-900 pt-[50px]">
+    <main className="h-[fit-content] w-full bg-white pt-[50px]">
       <section className=" w-full bg-white flex sm: flex-col sm: h-[1200px] md: flex-col md: h-[1000px] lg:flex-row lg:h-[600px] xl:flex-row xl:h-[600px]">
         <div className="bg-white flex flex-col gap-x-[25px] p-[15px] sm: h-1/2 sm: w-full md :h-1/2 md: w-full lg:h-full lg:w-[60%] xl:h-full xl:w-[60%]">
           <h1 className="font-bold font-madimi-one sm: text-[2rem] md: text-[2.6rem] lg:text-[3rem] xl:text-[3.2rem]">
