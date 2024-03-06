@@ -8,8 +8,11 @@ import appBg2 from "../assets/images/History.png";
 import mobileFeature from "../assets/images/undraw_mobile_pay_re_sjb8.svg";
 import transactionFeature from "../assets/images/undraw_online_transactions_-02-ka.svg";
 import savingFeature from "../assets/images/undraw_investing_re_bov7.svg";
+
 import authenticationFeature from "../assets/images/undraw_two_factor_authentication_namy.svg";
 
+import supportFeature from "../assets/images/undraw_active_support_re_b7sj.svg";
+import feedbackFeature from "../assets/images/undraw_feedback_re_urmj.svg";
 const Home = () => {
   return (
     <main className="h-[350vh] w-full bg-slate-900 pt-[50px]">
@@ -331,6 +334,59 @@ const Home = () => {
         </div>
       </section>
       {/*  */}
+      <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+        <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+          Need Assistance? Our Customer Support Team is Here to Help – Reach Out Today!
+          </h2>
+          <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+          Contact information for customer support services, including phone numbers, email addresses, and online chat options for assistance with account opening or inquiries about savings products.
+          </p>
+
+          <a href="" className="font-bold text-line">
+            Read More
+          </a>
+        </div>
+
+        {/*  */}
+        <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-end xl:justify-end sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <motion.div
+            className="h-[300px] w-[300px] rounded-[50%]"
+            initial={{ x: -80 }}
+            whileInView={{ x: 0 }}
+            transition={{ duration: 1.1, delay: 0.2 }}
+          >
+            <img src={supportFeature} alt="" className="h-full w-full " />
+          </motion.div>
+        </div>
+      </section>
+      {/*  */}
+      <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
+        <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+          Your Voice Matters: Share Your Feedback and Help Us Serve You Better!
+          </h2>
+          <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+          We value your opinion! Share your thoughts, suggestions, or feedback with us. Your insights help us improve our services to better meet your needs. Contact our dedicated customer support team. We appreciate your input!
+          </p>
+
+          <a href="" className="font-bold text-line">
+            Read More
+          </a>
+        </div>
+
+        {/*  */}
+        <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-center xl:justify-center sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <motion.div
+            className="h-[300px] w-[300px] rounded-[50%]"
+            initial={{ scale:0.6 }}
+            whileInView={{ scale: 1 }}
+            transition={{ duration: 1.1, delay: 0.2 }}
+          >
+            <img src={feedbackFeature} alt="" className="h-full w-full " />
+          </motion.div>
+        </div>
+      </section>
 </div>
     </main>
   );
