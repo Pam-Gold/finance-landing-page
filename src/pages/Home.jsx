@@ -228,9 +228,7 @@ const Home = () => {
             Bank Anywhere, Anytime: Download Our Mobile App Now!
           </h2>
           <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum et
-            molestias dignissimos autem facere? Ipsa, doloremque. Inventore esse
-            unde ratione.
+          Download our mobile banking app for convenient access to your accounts on the go. Available on both iOS and Android devices.
           </p>
 
           <a href="" className="font-bold text-line">
@@ -254,12 +252,10 @@ const Home = () => {
       <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
         <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
           <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
-          Effortless Transactions: Manage Your Finances with Ease – Start Now!
+          Effortless Transactions, Manage Your Finances with Ease – Start Now!
           </h2>
           <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum et
-            molestias dignissimos autem facere? Ipsa, doloremque. Inventore esse
-            unde ratione.
+          Transfer funds, pay bills, and manage your finances securely with our easy-to-use online banking platform. Enjoy hassle-free banking today!
           </p>
 
           <a href="" className="font-bold text-line">
@@ -287,9 +283,7 @@ const Home = () => {
           Grow Your Wealth: Discover Our Savings Solutions Today!
           </h2>
           <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum et
-            molestias dignissimos autem facere? Ipsa, doloremque. Inventore esse
-            unde ratione.
+          Discover expert tips, tricks, and products to help you save more and reach your financial goals. Explore our range of savings accounts, investment options, and money-saving strategies tailored to your needs
           </p>
 
           <a href="" className="font-bold text-line">
@@ -316,9 +310,7 @@ const Home = () => {
           Protect Your Finances: Activate Secure Authentication Now!
           </h2>
           <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum et
-            molestias dignissimos autem facere? Ipsa, doloremque. Inventore esse
-            unde ratione.
+          Rest assured, our mobile banking app employs state-of-the-art security measures to protect your personal and financial information.
           </p>
 
           <a href="" className="font-bold text-line">
