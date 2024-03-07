@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "body": "review 1",
+      "img":"https://i.pinimg.com/236x/b4/46/22/b44622ed5fe74d2062244466e1d7b1c3.jpg",
+      "occupation": "Business Owner",
+      "name": "Katlyn Mertz",
+      "rating": 5
+    },
+    {
+      "body": "review 2",
+      "img":"https://i.pinimg.com/474x/c2/81/fd/c281fdbeeff1de5076707463c48304d3.jpg",
+      "occupation": "Student",
+      "name": "Addison Bradtke",
+      "rating": 5
+    },
+    {
+      "body": "review 3",
+      "img":"https://i.pinimg.com/236x/c2/b0/9a/c2b09a209f8132aeb6de8d59bad31229.jpg",
+      "occupation": "Banker",
+      "name": "Dashawn Armstrong",
+      "rating": 5
+    },
+    {
+      "body": "review 4",
+      "img":"https://i.pinimg.com/236x/b5/5f/1a/b55f1ac9a8470c8df107f57722f433ca.jpg",
+      "occupation": "Business Owner",
+      "name": "Brain Emmerich",
+      "rating": 5
+    },
+    {
+      "body": "review 5",
+      "img":"https://i.pinimg.com/236x/ab/8e/fd/ab8efd14d9594b776498eac2d0e9806b.jpg",
+      "occupation": "Farmer",
+      "name": "Walton Brekke",
+      "rating": 4
+    },
+    {
+      "body": "review 6",
+      "img":"https://i.pinimg.com/236x/15/eb/08/15eb08230d48af0fb4ba85fd7e60e905.jpg",
+      "occupation": "App User",
+      "name": "Geovanny Kshlerin",
+      "rating": 4
+    }
+  
+  ]
+}

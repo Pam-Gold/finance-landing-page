@@ -13,6 +13,12 @@ import authenticationFeature from "../assets/images/undraw_two_factor_authentica
 
 import supportFeature from "../assets/images/undraw_active_support_re_b7sj.svg";
 import feedbackFeature from "../assets/images/undraw_feedback_re_urmj.svg";
+
+//
+
+import review from "../data/reviewDb.json";
+import Review from "../components/Review";
+
 const Home = () => {
   return (
     <main className="h-[fit-content] w-full bg-white pt-[50px]">
@@ -223,13 +229,13 @@ const Home = () => {
         </motion.div>
       </section>
 
-      <div className="flex flex-col h-[fit-content] w-full gap-y-[25px]">
-        <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
-          <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
-            <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+      <div className="flex flex-col h-[fit-content] w-full gap-y-[8px]">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+          <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+            <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Bank Anywhere, Anytime: Download Our Mobile App Now!
             </h2>
-            <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+            <p className="font-bold text-[dimgrey] text-[16px] sm: text-[14px]">
               Download our mobile banking app for convenient access to your
               accounts on the go. Available on both iOS and Android devices.
             </p>
@@ -240,7 +246,7 @@ const Home = () => {
           </div>
 
           {/*  */}
-          <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-end xl:justify-end sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <div className="flex  items-center p-[8px] gap-y-[25px] sm: justify-center md: justify-center  lg:justify-end xl:justify-end sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <motion.div
               className="h-[300px] w-[300px] rounded-[50%]"
               initial={{ x: -80 }}
@@ -252,13 +258,13 @@ const Home = () => {
           </div>
         </section>
         {/*  */}
-        <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
-          <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
-            <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
+          <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+            <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Effortless Transactions, Manage Your Finances with Ease – Start
               Now!
             </h2>
-            <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+            <p className="font-bold text-[dimgrey] text-[16px] sm: text-[14px]">
               Transfer funds, pay bills, and manage your finances securely with
               our easy-to-use online banking platform. Enjoy hassle-free banking
               today!
@@ -270,7 +276,7 @@ const Home = () => {
           </div>
 
           {/*  */}
-          <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-center xl:justify-center sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <div className="flex  items-center p-[8px] gap-y-[25px] sm: justify-center md: justify-center  lg:justify-center xl:justify-center sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <motion.div
               className="h-[300px] w-[300px] rounded-[50%]"
               initial={{ scale: 0.6 }}
@@ -283,12 +289,12 @@ const Home = () => {
         </section>
         {/*  */}
 
-        <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
-          <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
-            <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+          <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+            <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Grow Your Wealth: Discover Our Savings Solutions Today!
             </h2>
-            <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+            <p className="font-bold text-[dimgrey] text-[16px] sm: text-[14px]">
               Discover expert tips, tricks, and products to help you save more
               and reach your financial goals. Explore our range of savings
               accounts, investment options, and money-saving strategies tailored
@@ -301,7 +307,7 @@ const Home = () => {
           </div>
 
           {/*  */}
-          <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-end xl:justify-end sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <div className="flex  items-center p-[8px] gap-y-[25px] sm: justify-center md: justify-center  lg:justify-end xl:justify-end sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <motion.div
               className="h-[300px] w-[300px] rounded-[50%]"
               initial={{ x: -80 }}
@@ -313,12 +319,12 @@ const Home = () => {
           </div>
         </section>
         {/*  */}
-        <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
-          <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
-            <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
+          <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+            <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Protect Your Finances: Activate Secure Authentication Now!
             </h2>
-            <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+            <p className="font-bold text-[dimgrey] text-[16px] sm: text-[14px]">
               Rest assured, our mobile banking app employs state-of-the-art
               security measures to protect your personal and financial
               information.
@@ -330,7 +336,7 @@ const Home = () => {
           </div>
 
           {/*  */}
-          <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-center xl:justify-center sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <div className="flex  items-center p-[8px] gap-y-[25px] sm: justify-center md: justify-center  lg:justify-center xl:justify-center sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <motion.div
               className="h-[300px] w-[300px] rounded-[50%]"
               initial={{ scale: 0.6 }}
@@ -346,13 +352,13 @@ const Home = () => {
           </div>
         </section>
         {/*  */}
-        <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
-          <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
-            <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+          <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+            <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Need Assistance? Our Customer Support Team is Here to Help – Reach
               Out Today!
             </h2>
-            <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+            <p className="font-bold text-[dimgrey] text-[16px] sm: text-[14px]">
               Contact information for customer support services, including phone
               numbers, email addresses, and online chat options for assistance
               with account opening or inquiries about savings products.
@@ -364,7 +370,7 @@ const Home = () => {
           </div>
 
           {/*  */}
-          <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-end xl:justify-end sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <div className="flex  items-center p-[8px] gap-y-[25px] sm: justify-center md: justify-center  lg:justify-end xl:justify-end sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <motion.div
               className="h-[300px] w-[300px] rounded-[50%]"
               initial={{ x: -80 }}
@@ -376,13 +382,13 @@ const Home = () => {
           </div>
         </section>
         {/*  */}
-        <section className="h-[600px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
-          <div className="flex flex-col justify-center  gap-y-[35px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
-            <h2 className="font-bold text-[1.4rem] sm: text-[1.2rem]">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
+          <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+            <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Your Voice Matters: Share Your Feedback and Help Us Serve You
               Better!
             </h2>
-            <p className="font-bold text-[grey] text-[16px] sm: text-[14px]">
+            <p className="font-bold text-[dimgrey] text-[16px]  sm: text-[14px]">
               We value your opinion! Share your thoughts, suggestions, or
               feedback with us. Your insights help us improve our services to
               better meet your needs. Contact our dedicated customer support
@@ -395,7 +401,7 @@ const Home = () => {
           </div>
 
           {/*  */}
-          <div className="flex  items-center p-[8px] gap-y-[35px] sm: justify-center md: justify-center  lg:justify-center xl:justify-center sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
+          <div className="flex  items-center p-[8px] gap-y-[25px] sm: justify-center md: justify-center  lg:justify-center xl:justify-center sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <motion.div
               className="h-[300px] w-[300px] rounded-[50%]"
               initial={{ scale: 0.6 }}
@@ -408,8 +414,19 @@ const Home = () => {
         </section>
       </div>
       {/*  */}
-      <section className="h-[500px] w-full bg-black p-[8px]">
-        <h2 className="text-[1.2rem] text-white text-center font-madimi-one">Discover Why Our Customers Love Us</h2>
+      <section className="h-[fit-content] w-full bg-black p-[8px] gap-y-[20px] flex flex-col relative">
+        <h2 className="text-[1.2rem] text-white text-center font-madimi-one">
+          Discover Why Our Customers Love Us
+        </h2>
+
+        <div className="h-[350px]  flex review-section relative gap-x-[35px] items-center">
+          <div className=" flex gap-x-[25px] review-container">
+            {review.posts.map((review) => (
+              <Review {...review} />
+            ))}
+          
+          </div>
+        </div>
       </section>
     </main>
   );
