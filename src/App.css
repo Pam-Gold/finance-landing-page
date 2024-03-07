@@ -92,7 +92,7 @@
     overflow: hidden;
   }
   .review-container {
-    animation: infiniteCart 23s linear infinite;
+    animation: infiniteCart 35s linear infinite;
   }
   @keyframes scrollUp {
     0% {
@@ -141,7 +141,7 @@
   }
   @keyframes infiniteCart {
     100% {
-      transform: translateX(-2050px);
+      transform: translateX(-2100px);
     }
   }
 }
@@ -153,7 +153,7 @@
     overflow: hidden;
   }
   .review-container {
-    animation: infiniteCart 23s linear infinite;
+    animation: infiniteCart 28s linear infinite;
   }
 
   @keyframes scrollUp {
