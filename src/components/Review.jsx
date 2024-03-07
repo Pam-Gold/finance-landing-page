@@ -1,9 +1,8 @@
 const Review = (props) => {
   return (
     <div className=" h-[200px] w-[400px] bg-white text-black flex flex-col justify-between p-[12px] rounded-lg review">
-      <p className="text-md">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem
-        quia corrupti dicta.
+      <p className="text-md text-[dimgrey]">
+        {props.body}
       </p>
 
       <div className="flex justify-between items-center">

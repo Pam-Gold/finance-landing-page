@@ -73,9 +73,7 @@
   display: none;
 }
 
-.review-container {
-  animation: infiniteCart 23s linear infinite;
-}
+
 
 .review-section .review {
 }
@@ -93,7 +91,9 @@
     flex-direction: column;
     overflow: hidden;
   }
-
+  .review-container {
+    animation: infiniteCart 23s linear infinite;
+  }
   @keyframes scrollUp {
     0% {
       transform: translateY(-0px);
@@ -151,6 +151,9 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
+  }
+  .review-container {
+    animation: infiniteCart 23s linear infinite;
   }
 
   @keyframes scrollUp {
@@ -212,7 +215,9 @@
     flex-direction: column;
     overflow: hidden;
   }
-
+  .review-container {
+    animation: infiniteCart 15s linear infinite;
+  }
   @keyframes scrollUp {
     0% {
       transform: translateY(-0px);
@@ -258,7 +263,7 @@
 
   @keyframes infiniteCart {
     100% {
-      transform: translateX(-500px);
+      transform: translateX(-1200px);
     }
   }
 }
@@ -268,6 +273,9 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
+  }
+  .review-container {
+    animation: infiniteCart 15s linear infinite;
   }
 
   @keyframes scrollUp {
@@ -317,7 +325,7 @@
 
   @keyframes infiniteCart {
     100% {
-      transform: translateX(-500px);
+      transform: translateX(-1200px);
     }
   }
 }
