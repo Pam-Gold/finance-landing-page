@@ -74,7 +74,7 @@
 }
 
 .review-container {
-  animation: infiniteCart 22s ease-in infinite;
+  animation: infiniteCart 25s linear infinite;
 }
 
 .review-section .review {
