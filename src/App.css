@@ -17,9 +17,7 @@
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
-.mobile-menu::-webkit-scrollbar{
-display: none;
-}
+
 
 @keyframes scrollUp {
   0% {
