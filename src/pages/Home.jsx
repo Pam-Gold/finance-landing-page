@@ -125,7 +125,7 @@ const Home = () => {
           <h3 className="text-lg text-[#111] font-bold font-madimi-one">
             Registration/Login
           </h3>
-          <p className="text-md text-[dimgrey] font-bold font-madimi-one">
+          <p className="text-md text-[dimgrey] font-bold font-montserrat">
             You'll need to register or login by providing your account details &
             personal information.
           </p>
@@ -140,7 +140,7 @@ const Home = () => {
           <h3 className="text-lg text-[#111] font-bold font-madimi-one">
             Verification
           </h3>
-          <p className="text-md text-[dimgrey] font-bold font-madimi-one">
+          <p className="text-md text-[dimgrey] font-bold font-montserrat">
             Some Banks may require additional verification steps, such as
             confirming your identity through SMS, Email or Face Id
           </p>
@@ -155,7 +155,7 @@ const Home = () => {
           <h3 className="text-lg text-[#111] font-bold font-madimi-one">
             Account Linking
           </h3>
-          <p className="text-md text-[dimgrey] font-bold font-madimi-one">
+          <p className="text-md text-[dimgrey] font-bold font-montserrat">
             Link your bank accounts to the app by providing the necessary
             information, such as your account number & any security codes
             provided by your bank.
@@ -172,7 +172,7 @@ const Home = () => {
           <h3 className="text-lg text-[#111] font-bold font-madimi-one">
             You are good to go
           </h3>
-          <p className="text-md text-[dimgrey] font-bold font-madimi-one">
+          <p className="text-md text-[dimgrey] font-bold font-montserrat">
             Setup any additional security features such as fingerprint or face
             id & start using the app to manage your finances conveniently from
             your mobile device.

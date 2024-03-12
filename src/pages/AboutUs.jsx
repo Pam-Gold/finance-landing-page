@@ -12,9 +12,9 @@ const AboutUs = () => {
            Who we are  
           </h1>
 
-<p className="font-roboto font-600 text-[1rem]">At Pampoint, we believe in redefining the way you manage your finances. With a commitment to innovation and customer satisfaction, we aim to provide you with seamless banking experiences that fit into your lifestyle.</p>
+<p className="font-montserrat font-600 text-[1rem]">At Pampoint, we believe in redefining the way you manage your finances. With a commitment to innovation and customer satisfaction, we aim to provide you with seamless banking experiences that fit into your lifestyle.</p>
 
-<p className="font-roboto font-600 text-[1rem]">
+<p className="font-montserrat font-600 text-[1rem]">
 Our mission is simple: to empower you with the tools and services you need to take control of your finances anytime, anywhere. Whether you're at home, at work, or on the go, we strive to make banking convenient, secure, and personalized to your needs.
 </p>
 
@@ -26,14 +26,52 @@ Our mission is simple: to empower you with the tools and services you need to ta
         </div>
       </section>
 
-      <section className=" mt-[150px] h-[fit-content] w-full flex flex-col gap-y-[25px]">
+      <section className=" mt-[100px] h-[fit-content] w-full flex flex-col gap-y-[25px]">
         <h2 className="text-[2rem] font-madimi-one text-center">Meet Our Leader's</h2>
 
-        <p className="text-center text-lg">Our team of leaders is dedicated to driving innovation, excellence, and customer satisfaction in everything we do</p>
+        <p className="text-center text-lg font-montserrat">Our team of leaders is dedicated to driving innovation, excellence, and customer satisfaction in everything we do</p>
 
         <motion.div className="flex flex-wrap items-center gap-[35px] justify-center ">
           {leaderProfileDb.map(team=> <TeamProfile {...team}/>)}
         </motion.div>
+      </section>
+      <section className='mt-[100px] h-[fit-content] w-full bg-black flex p-[12px] gap-[50px] justify-center [&>div>span>h3]:font-madimi-one [&>div>span>h5]:font-montserrat sm: flex-col md: flex-col lg:flex-row lg:justify-center lg:items-center lg:h-[200px] xl:flex-row xl:justify-center xl:items-center xl:h-[200px]   '>
+<div className='flex items-center gap-x-[30px]'>
+  <span className='h-[50px] w-[50px] bg-[#f9a826] text-black flex justify-center items-center rounded-lg'><i className='text-xl fa-solid fa-chart-pie'></i></span>
+{/*  */}
+  <span className='flex flex-col gap-y-[5px]'>
+<h3 className='text-[1.2rem] text-white'>$300 Million</h3>
+<h5 className='text-[0.8rem] text-[lightgrey]'>Processed Monthly</h5>
+  </span>
+</div>
+{/*  */}
+<div className='flex items-center gap-x-[30px]'>
+  <span className='h-[50px] w-[50px] bg-[#f9a826] text-black flex justify-center items-center rounded-lg'><i className="fa-solid fa-location-dot"></i></span>
+{/*  */}
+  <span className='flex flex-col gap-y-[5px]'>
+<h3 className='text-[1.2rem] text-white'>200+</h3>
+<h5 className='text-[0.8rem] text-[lightgrey]'>Branches in Europe</h5>
+  </span>
+</div>
+{/*  */}
+<div className='flex items-center gap-x-[30px]'>
+  <span className='h-[50px] w-[50px] bg-[#f9a826] text-black flex justify-center items-center rounded-lg'><i className="fa-solid fa-user"></i></span>
+{/*  */}
+  <span className='flex flex-col gap-y-[5px]'>
+<h3 className='text-[1.2rem] text-white'>5M+</h3>
+<h5 className='text-[0.8rem] text-[lightgrey]'>Active Users</h5>
+  </span>
+</div>
+{/*  */}
+<div className='flex items-center gap-x-[30px]'>
+  <span className='h-[50px] w-[50px] bg-[#f9a826] text-black flex justify-center items-center rounded-lg'><i className='text-xl fa-solid fa-chart-pie'></i></span>
+{/*  */}
+  <span className='flex flex-col gap-y-[5px]'>
+<h3 className='text-[1.2rem] text-white'>$300 Million</h3>
+<h5 className='text-[0.8rem] text-[lightgrey]'>Processed Monthly</h5>
+  </span>
+</div>
+{/*  */}
       </section>
     </main>
   );
