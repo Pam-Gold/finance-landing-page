@@ -18,53 +18,6 @@
   display: none;
 }
 
-
-@keyframes scrollUp {
-  0% {
-    transform: translateY(-0px);
-  }
-  5% {
-    transform: translateY(-0px);
-  }
-  10% {
-    transform: translateY(-50px);
-  }
-  20% {
-    transform: translateY(-50px);
-  }
-
-  30% {
-    transform: translateY(-100px);
-  }
-
-  40% {
-    transform: translateY(-100px);
-  }
-  50% {
-    transform: translateY(-150px);
-  }
-
-  60% {
-    transform: translateY(-150px);
-  }
-
-  70% {
-    transform: translateY(-200px);
-  }
-
-  80% {
-    transform: translateY(-200px);
-  }
-
-  90% {
-    transform: translateY(-250px);
-  }
-
-  100% {
-    transform: translateY(-250px);
-  }
-}
-
 .review-section {
   overflow-x: hidden;
   /* width: 100%; */
@@ -72,17 +25,6 @@
 
 .review-section::-webkit-scrollbar {
   display: none;
-}
-
-
-
-.review-section .review {
-}
-
-@keyframes infiniteCart {
-  100% {
-    transform: translateX(-1500px);
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -211,7 +153,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .cta-animate-wrapper {
-    height: 65px;
+    height: 75px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -224,42 +166,41 @@
       transform: translateY(-0px);
     }
     5% {
-      transform: translateY(-65px);
+      transform: translateY(-75px);
     }
     10% {
-      transform: translateY(-65px);
+      transform: translateY(-75px);
     }
     20% {
-      transform: translateY(-130px);
+      transform: translateY(-150px);
     }
 
     30% {
-      transform: translateY(-130px);
+      transform: translateY(-150px);
     }
 
     40% {
-      transform: translateY(-195px);
+      transform: translateY(-225px);
     }
     50% {
-      transform: translateY(-195px);
+      transform: translateY(-225px);
     }
 
     60% {
-      transform: translateY(-260px);
+      transform: translateY(-300px);
     }
 
     70% {
-      transform: translateY(-260px);
+      transform: translateY(-300px);
     }
 
     80% {
-      transform: translateY(-325px);
+      transform: translateY(-375px);
     }
 
     100% {
-      transform: translateY(-325px);
+      transform: translateY(-375px);
     }
-
   }
 
   @keyframes infiniteCart {

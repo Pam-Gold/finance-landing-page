@@ -27,12 +27,12 @@ const Home = () => {
           <h1 className="font-bold font-madimi-one sm: text-[2rem] md: text-[2.6rem] lg:text-[3rem] xl:text-[3.2rem]">
             Get Started with our intuitive platform that covers
             <div className="cta-animate-wrapper">
-              <span>Online Banking.</span>
-              <span>Saving.</span>
+              <span>Your Finances</span>
+              <span>Customer Support</span>
               <span>Security.</span>
-              <span>Transfers.</span>
+              <span>Fast Transactions.</span>
               <span>Accesibility.</span>
-              <span>Online Banking.</span>
+              <span>Your Finances</span>
               {/* <span>Online Banking.</span> */}
             </div>
           </h1>
@@ -230,7 +230,7 @@ const Home = () => {
       </section>
 
       <div className="flex flex-col h-[fit-content] w-full gap-y-[8px]">
-        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[450px] xl:h-[450px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
           <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Bank Anywhere, Anytime: Download Our Mobile App Now!
@@ -258,7 +258,7 @@ const Home = () => {
           </div>
         </section>
         {/*  */}
-        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[450px] xl:h-[450px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
           <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Effortless Transactions, Manage Your Finances with Ease – Start
@@ -289,7 +289,7 @@ const Home = () => {
         </section>
         {/*  */}
 
-        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[450px] xl:h-[450px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
           <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Grow Your Wealth: Discover Our Savings Solutions Today!
@@ -319,7 +319,7 @@ const Home = () => {
           </div>
         </section>
         {/*  */}
-        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[450px] xl:h-[450px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
           <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Protect Your Finances: Activate Secure Authentication Now!
@@ -352,7 +352,7 @@ const Home = () => {
           </div>
         </section>
         {/*  */}
-        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[450px] xl:h-[450px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col md: flex-col lg:flex-row xl:flex-row ">
           <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Need Assistance? Our Customer Support Team is Here to Help – Reach
@@ -382,7 +382,7 @@ const Home = () => {
           </div>
         </section>
         {/*  */}
-        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[400px] xl:h-[400px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
+        <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[450px] xl:h-[450px] w-full p-[12px]  bg-white flex justify-between items-center  sm: flex-col-reverse md: flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse ">
           <div className="flex flex-col justify-center  gap-y-[25px] sm: h-[50%] sm: w-[100%] md: h-[50%] md: h-[50%] md: w-[100%] lg:h-[100%] lg:w-[50%] xl:h-[100%] xl:w-[50%]">
             <h2 className="font-bold text-[1.4rem] font-montserrat sm: text-[1.2rem]">
               Your Voice Matters: Share Your Feedback and Help Us Serve You
@@ -424,7 +424,6 @@ const Home = () => {
             {review.posts.map((review) => (
               <Review {...review} />
             ))}
-          
           </div>
         </div>
       </section>

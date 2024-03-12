@@ -19,7 +19,9 @@ const Navbar = () => {
   return (
     <nav className="h-12 w-full flex items-center justify-between px-2 bg-black text-white fixed z-[50]">
       <div className="h-11 w-12">
-        <img className="h-full w-full rounded-lg" src={logo} />
+        <Link to="/">        <img className="h-full w-full rounded-lg" src={logo} />
+        </Link>
+
       </div>
       {/*  */}
       <ul className=" gap-x-6 items-center list-none font-poppins text-[1rem] font-bold sm: hidden md: hidden lg:flex xl:flex">
@@ -75,17 +77,17 @@ const Navbar = () => {
             className="z-[100]  fixed top-0 left-0 right-0 bottom-0 bg-black flex flex-col justify-center items-center  gap-y-[25px] [&>*]:text-[1.5rem] font-bold lg:hidden xl:hidden"
           >
             <i
-              className="fa-solid fa-close absolute top-[10px] right-[10px] text-3xl"
+              className="fa-solid fa-close absolute top-[10px] right-[10px] text-4xl"
               onTouchStart={closeMenu}
               onPointerDown={closeMenu}
             ></i>
 
-            <Link>Personal</Link>
-            <Link>Business</Link>
-            <Link>Company</Link>
-            <Link>About Us</Link>
-            <Link>Blog</Link>
-            <Link>Faq</Link>
+            <Link onClick={closeMenu}>Personal</Link>
+            <Link onClick={closeMenu}>Business</Link>
+            <Link onClick={closeMenu}>Company</Link>
+            <Link onClick={closeMenu} to="about">About Us</Link>
+            <Link onClick={closeMenu}>Blog</Link>
+            <Link onClick={closeMenu}>Faq</Link>
           </motion.div>
         )}
       </AnimatePresence>

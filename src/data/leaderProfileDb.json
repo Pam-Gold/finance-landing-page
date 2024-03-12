@@ -1,0 +1,24 @@
+[
+  {
+    "img":"https://i.pinimg.com/236x/97/24/a7/9724a7978e4e9fb3d8b90a476e5024c0.jpg",
+    "name":"David Morisson",
+    "bio":"Co-Founder & CEO"
+  },
+  {
+    "img":"https://i.pinimg.com/236x/14/e6/34/14e634812e5c604f61c72776a8a92604.jpg",
+    "name":"Philip Chukwu",
+    "bio":"Co-Founder & CTO"
+  },
+  {
+    "img":"https://i.pinimg.com/236x/25/b8/dd/25b8dde0e8ebb9aa88dbc9a562a0583e.jpg",
+    "name":"James Brooks",
+    "bio":"Finance Director"
+  },
+ 
+  {
+    "img":"https://i.pinimg.com/236x/04/5d/c4/045dc4ee0b156d3987f81f1d7ef819cd.jpg",
+    "name":"Dele Adeji",
+    "bio":"Chief Banking Officer"
+  }
+ 
+]
