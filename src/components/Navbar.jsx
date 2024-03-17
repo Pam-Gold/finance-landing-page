@@ -86,7 +86,7 @@ const Navbar = () => {
             <Link onClick={closeMenu}>Business</Link>
             <Link onClick={closeMenu}>Company</Link>
             <Link onClick={closeMenu} to="about">About Us</Link>
-            <Link onClick={closeMenu}>Blog</Link>
+            <Link onClick={closeMenu} to="blog">Blog</Link>
             <Link onClick={closeMenu}>Faq</Link>
           </motion.div>
         )}

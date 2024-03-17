@@ -9,13 +9,14 @@ import {
 import Layout from "./layout/Layout";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
+import Blog from "./pages/Blog";
 
 const pamsRouter = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
       <Route path="about" element={<AboutUs />} />
-      <Route />
+      <Route path="blog" element={<Blog/>} />
     </Route>
   )
 );
