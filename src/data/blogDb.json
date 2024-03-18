@@ -1,37 +1,52 @@
 [
   {
-    "author":"",
-    "title":"",
-    "body":"",
-    "date":"",
-    "authorImg":""
+    "id": 0,
+    "author": "James Brooks",
+    "title": "The Evolution of Mobile Banking: From Convenience to Necessity",
+    "body": "",
+    "date": "Mar 14, 2024",
+    "authorImg": "https://i.pinimg.com/236x/f2/f4/33/f2f4335f5e55a6d7808650142912e1b7.jpg",
+    "img": "https://images.unsplash.com/photo-1616077168712-fc6c788db4af?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D",
+    "time": "5 min"
   },
   {
-    "author":"",
-    "title":"",
-    "body":"",
-    "date":"",
-    "authorImg":""
+    "id": 1,
+    "author": "Philip Chukwu",
+    "title": "Exploring the Role of AI in Enhancing Mobile Banking Experiences",
+    "body": "",
+    "date": "Feb 12, 2024",
+    "authorImg": "https://i.pinimg.com/236x/72/11/e0/7211e00948ccacbc8a7d9689ad6cdcab.jpg",
+    "img": "https://img.freepik.com/premium-vector/artificial-intelligence-provide-access-information-data-online-networks-via-smartphone-ai-form-bot-coming-out-screen-phone-offers-use-digital-mind_276941-85.jpg?size=626&ext=jpg&ga=GA1.2.1268881793.1709610818&semt=ais",
+    "time": "3 min"
   },
   {
-    "author":"",
-    "title":"",
-    "body":"",
-    "date":"",
-    "authorImg":""
+    "id": 2,
+    "author": "David Morisson",
+    "title": "Mobile Banking Around the World: Global Perspectives and Practices",
+    "body": "",
+    "date": "Jan 3, 2024",
+    "authorImg": "https://i.pinimg.com/236x/97/24/a7/9724a7978e4e9fb3d8b90a476e5024c0.jpg",
+    "img": "https://img.freepik.com/premium-photo/conceptual-business-dashboard-financial-data-analysis_31965-20012.jpg?w=826",
+    "time": "15 min"
   },
   {
-    "author":"",
-    "title":"",
-    "body":"",
-    "date":"",
-    "authorImg":""
+    "id": 3,
+    "author": "Dele Adeji",
+    "title": "How Mobile Banking is Revolutionizing Personal Finance ",
+    "body": "",
+    "date": "Dec 28, 2023",
+    "authorImg": "https://i.pinimg.com/236x/96/a8/3f/96a83fb28e15a4baef392cdfabfb3285.jpg",
+    "img": "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZmludGVjaHxlbnwwfHwwfHx8MA%3D%3D",
+    "time": "8 min"
   },
   {
-    "author":"",
-    "title":"",
-    "body":"",
-    "date":"",
-    "authorImg":""
+    "id": 4,
+    "author": "Author5",
+    "title": "",
+    "body": "",
+    "date": "",
+    "authorImg": "",
+    "img": "https://i.pinimg.com/originals/f5/f2/74/f5f27448c036af645c27467c789ad759.gif",
+    "time": ""
   }
 ]
