@@ -6,11 +6,11 @@ const BlogBox = (props) => {
 <img src={props.img} alt=""  className="h-[250px] w-full"/>
 <div className="flex flex-col gap-y-[15px] p-[8px] ">
   <h2 className="font-bold text-[1.4rem]"><Link to={props.id.toString()}>{props.title}</Link></h2>
-  <p className="text-[dimgrey]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni veritatis amet repellendus sed voluptas reprehenderit aliquid.</p>
-  <span className="flex items-center gap-x-[12px]">
-    <img src="https://i.pinimg.com/236x/33/ed/84/33ed84e135b83ad2eef65c3f8316a0e8.jpg" alt="" className="h-[40px] w-[40px] rounded-[50%]"/>
 
-<span>{props.author} . 14 Mar 24</span>
+  <span className="flex items-center gap-x-[12px]">
+    <img src={props.authorImg} alt="" className="h-[40px] w-[40px] rounded-[50%]"/>
+
+<span className="flex items-center gap-x-[6px]"><h4>{props.author}</h4>  <span className="h-[3px] w-[3px] bg-[#111] rounded-[50%]"></span> <h4>14 Mar 24</h4></span>
 
   </span>
 </div>
