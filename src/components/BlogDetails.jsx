@@ -39,7 +39,7 @@ const BlogDetails = () => {
         {blogData.body}
       </p>
 
-      <div className="flex flex-col gap-y-[10px] self-start">
+      <div className="flex flex-col gap-y-[9px] self-start">
         <h6 className="text-[grey] text-[18px] font-bold self-start p-[6px]">
           Written by
         </h6>
