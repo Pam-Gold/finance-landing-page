@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import blogDb from "../data/blogDb.json";
 
 const BlogDetails = () => {
@@ -9,6 +9,8 @@ const BlogDetails = () => {
   console.log(blogData);
   return (
     <div className="h-[fit-content] pt-[50px] w-full bg-black flex flex-col items-center gap-y-[50px] sm: px-[10px] md: px-[12px] lg:px-[80px] xl:px-[100px]">
+
+      <span className="h-[40px] w-[40px] bg-white rounded-[50%] flex justify-center items-center self-start cursor-pointer"><Link to="/blog"><i className="fa-solid fa-arrow-left text-[1.2rem]"></i> </Link></span>
       <img
         src={blogData.img}
         alt=""
