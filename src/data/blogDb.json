@@ -8,6 +8,8 @@
     "authorImg": "https://i.pinimg.com/236x/f2/f4/33/f2f4335f5e55a6d7808650142912e1b7.jpg",
     "img": "https://images.unsplash.com/photo-1616077168712-fc6c788db4af?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D",
     "time": "5 min"
+    ,
+    "roles":"Finance Director"
   },
   {
     "id": 1,
@@ -18,6 +20,8 @@
     "authorImg": "https://i.pinimg.com/236x/72/11/e0/7211e00948ccacbc8a7d9689ad6cdcab.jpg",
     "img": "https://img.freepik.com/premium-vector/artificial-intelligence-provide-access-information-data-online-networks-via-smartphone-ai-form-bot-coming-out-screen-phone-offers-use-digital-mind_276941-85.jpg?size=626&ext=jpg&ga=GA1.2.1268881793.1709610818&semt=ais",
     "time": "3 min"
+    ,
+    "roles":"Co-Founder & CTO"
   },
   {
     "id": 2,
@@ -28,6 +32,8 @@
     "authorImg": "https://i.pinimg.com/236x/97/24/a7/9724a7978e4e9fb3d8b90a476e5024c0.jpg",
     "img": "https://img.freepik.com/premium-photo/conceptual-business-dashboard-financial-data-analysis_31965-20012.jpg?w=826",
     "time": "15 min"
+    ,
+    "roles":"Co-Founder & CEO"
   },
   {
     "id": 3,
@@ -38,15 +44,19 @@
     "authorImg": "https://i.pinimg.com/236x/96/a8/3f/96a83fb28e15a4baef392cdfabfb3285.jpg",
     "img": "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZmludGVjaHxlbnwwfHwwfHx8MA%3D%3D",
     "time": "8 min"
+    ,
+    "roles":"Chief Banking Officer"
   },
   {
     "id": 4,
     "author": "Christiana Peterson",
     "title": "Mobile Banking and Financial Education: Empowering Users with Knowledge",
-    "body": "",
+    "body":"In today's rapidly evolving digital landscape, mobile banking has become an integral part of our daily lives. With just a few taps on a smartphone, users can access their accounts, transfer funds, pay bills, and even apply for loans. However, while the convenience of mobile banking is undeniable, it's essential to recognize its potential as a tool for financial education and empowerment.\nFinancial literacy remains a significant issue globally, with many individuals lacking the necessary knowledge and skills to manage their finances effectively. \nThis lack of understanding can lead to poor financial decisions, debt accumulation, and limited access to financial services. Mobile banking platforms present a unique opportunity to address these challenges by offering educational resources and tools directly to users.",
     "date": "Dec 13, 2023",
     "authorImg": "https://i.pinimg.com/236x/25/9f/76/259f76bfd1bbbff232893b5288734727.jpg",
     "img": "https://images.pexels.com/photos/5324855/pexels-photo-5324855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "time": "4 min"
+    ,
+    "roles":"Business Instructor"
   }
 ]

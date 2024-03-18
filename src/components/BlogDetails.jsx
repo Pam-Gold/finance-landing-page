@@ -8,7 +8,7 @@ const BlogDetails = () => {
 
   console.log(blogData);
   return (
-    <div className="h-[150vh] pt-[50px] w-full bg-black flex flex-col items-center gap-y-[50px] sm: px-[10px] md: px-[15px] lg:px-[80px] xl:px-[100px]">
+    <div className="h-[fit-content] pt-[50px] w-full bg-black flex flex-col items-center gap-y-[50px] sm: px-[10px] md: px-[15px] lg:px-[80px] xl:px-[100px]">
       <img
         src={blogData.img}
         alt=""
@@ -35,8 +35,18 @@ const BlogDetails = () => {
         </h4>
       </div>
 
-      <p className="text-[grey]">
-      </p>
+    <p className="text-[#f1f1f1] p-[5px] text-[1.2rem] leading-[1.9]">{blogData.body}</p>  
+
+
+<h6 className="text-[grey] text-[18px] font-bold self-start p-[6px]">Written by</h6>
+
+<span className="flex items-center self-start p-[12px] gap-x-[35px]">
+<img src={blogData.authorImg} alt="" className="h-[50px] w-[50px] rounded-[50%]" />
+   <span className="flex flex-col gap-y-[10px]">
+    <h4 className="font-bold text-[#f1f1f1]">{blogData.author}</h4>
+    <h4 className="font-600 text-[grey]">{blogData.roles}</h4>
+   </span>
+</span>
     </div>
   );
 };
