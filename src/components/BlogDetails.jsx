@@ -35,7 +35,7 @@ const BlogDetails = () => {
         </h4>
       </div>
 
-      <p className="text-[#f1f1f1] p-[5px] text-[1.2rem] leading-[1.9]">
+      <p className="text-[#f1f1f1] p-[5px] text-[1.1rem] leading-[1.8]">
         {blogData.body}
       </p>
 
