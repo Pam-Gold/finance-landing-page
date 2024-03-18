@@ -12,7 +12,7 @@ const BlogBox = (props) => {
   <span className="flex items-center gap-x-[12px]">
     <img src={props.authorImg} alt="" className="h-[40px] w-[40px] rounded-[50%]"/>
 
-<span className="flex items-center gap-x-[6px] font-montserrat"><h4>{props.author}</h4>  <span className="h-[3px] w-[3px] bg-[#111] rounded-[50%]"></span> <h4>14 Mar 24</h4></span>
+<span className="flex items-center gap-x-[6px] font-montserrat"><h4>{props.author}</h4>  <span className="h-[3px] w-[3px] bg-[#111] rounded-[50%]"></span> <h4>{props.date}</h4></span>
 
   </span>
 </div>
