@@ -31,28 +31,12 @@ const Navbar = () => {
         <li>
           <NavLink>Business</NavLink>
         </li>
+        <li><NavLink to="about">About Us</NavLink></li>
+                <li><NavLink to="blog">Blogs</NavLink></li>
+                <li><NavLink>Faq</NavLink></li>
         <div>
-          <span
-            className="flex gap-x-2 items-center cursor-pointer"
-            onTouchStart={setNavDropDown}
-            onPointerOver={setNavDropDown}
-          >
-            <li>Company</li>{" "}
-            {navDropDown ? (
-              <i className="fa-solid fa-chevron-up"></i>
-            ) : (
-              <i className="fa-solid fa-chevron-down"></i>
-            )}
-          </span>
-          {navDropDown && (
-            <div className="h-[100px] w-[150px] bg-gray-700 text-white flex flex-col absolute top-[50px]  items-center rounded-md">
-              <ul className="my-3">
-                <li>About Us</li>
-                <li>Blog</li>
-                <li>Faq</li>
-              </ul>
-            </div>
-          )}
+         
+        
         </div>
         <li>
           <NavLink>Contact Us</NavLink>
@@ -60,7 +44,7 @@ const Navbar = () => {
       </ul>
 
       <div
-        className="h-[35px] w-[25px]   flex-col justify-center items-center gap-y-2  sm: flex md: flex lg:hidden xl:hidden"
+        className="h-[35px] w-[25px]  cursor-pointer flex-col justify-center items-center gap-y-2  sm: flex md: flex lg:hidden xl:hidden"
         onTouchStart={openMenu}
         onPointerDown={openMenu}
       >
@@ -77,16 +61,16 @@ const Navbar = () => {
             className="z-[100]  fixed top-0 left-0 right-0 bottom-0 bg-black flex flex-col justify-center items-start p-[80px]  gap-y-[25px] [&>*]:text-[1.5rem] font-bold lg:hidden xl:hidden"
           >
             <i
-              className="fa-solid fa-close absolute top-[10px] right-[10px] text-4xl"
+              className="fa-solid fa-close absolute top-[10px] right-[10px] text-4xl cursor-pointer"
               onTouchStart={closeMenu}
               onPointerDown={closeMenu}
             ></i>
 
             <Link onClick={closeMenu}>Personal</Link>
             <Link onClick={closeMenu}>Business</Link>
-            <Link onClick={closeMenu}>Company</Link>
+         
             <Link onClick={closeMenu} to="about">About Us</Link>
-            <Link onClick={closeMenu} to="blog">Blog</Link>
+            <Link onClick={closeMenu} to="blog">Blogs</Link>
             <Link onClick={closeMenu}>Faq</Link>
           </motion.div>
         )}
