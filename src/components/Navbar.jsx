@@ -74,7 +74,7 @@ const Navbar = () => {
             animate={{ scale: 1 }}
             transition={{ duration: 0.2 }}
             exit={{ scale: 0 }}
-            className="z-[100]  fixed top-0 left-0 right-0 bottom-0 bg-black flex flex-col justify-center items-start p-[20px]  gap-y-[25px] [&>*]:text-[1.5rem] font-bold lg:hidden xl:hidden"
+            className="z-[100]  fixed top-0 left-0 right-0 bottom-0 bg-black flex flex-col justify-center items-start p-[80px]  gap-y-[25px] [&>*]:text-[1.5rem] font-bold lg:hidden xl:hidden"
           >
             <i
               className="fa-solid fa-close absolute top-[10px] right-[10px] text-4xl"
