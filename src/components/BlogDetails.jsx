@@ -19,7 +19,7 @@ const BlogDetails = () => {
         {blogData.title}
       </h1>
 
-      <div className="flex items-center gap-x-[12px] text-[grey] [&>h4]:sm: text-[11.8px] [&>h4]:md: text-[14px] [&>h4]:lg:text-[1rem] [&>h4]:xl:text-[1rem]">
+      <div className="flex items-center gap-x-[12px] text-[grey] [&>h4]:sm: text-[11.5px] [&>h4]:md: text-[13px] [&>h4]:lg:text-[1rem] [&>h4]:xl:text-[1rem]">
         <img
           src={blogData.authorImg}
           alt=""
