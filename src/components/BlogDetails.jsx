@@ -8,14 +8,14 @@ const BlogDetails = () => {
 
   console.log(blogData);
   return (
-    <div className="h-[fit-content] pt-[50px] w-full bg-black flex flex-col items-center gap-y-[50px] sm: px-[10px] md: px-[15px] lg:px-[80px] xl:px-[100px]">
+    <div className="h-[fit-content] pt-[50px] w-full bg-black flex flex-col items-center gap-y-[50px] sm: px-[10px] md: px-[12px] lg:px-[80px] xl:px-[100px]">
       <img
         src={blogData.img}
         alt=""
         className=" w-full sm: h-[300px] md: h-[300px] lg:h-[450px] xl:h-[450px]"
       />
 
-      <h1 className="text-white  font-bold text-center sm: text-[1.2rem] md: text-[1.6rem] lg:text-[2rem] xl:text-[2rem] ">
+      <h1 className="text-white  font-bold text-center sm: text-[1.25rem] md: text-[1.35rem] lg:text-[1.8rem] xl:text-[2rem] ">
         {blogData.title}
       </h1>
 
@@ -37,16 +37,21 @@ const BlogDetails = () => {
 
     <p className="text-[#f1f1f1] p-[5px] text-[1.2rem] leading-[1.9]">{blogData.body}</p>  
 
+<div className="flex flex-col gap-y-[10px] self-start">
+
 
 <h6 className="text-[grey] text-[18px] font-bold self-start p-[6px]">Written by</h6>
 
 <span className="flex items-center self-start p-[12px] gap-x-[35px]">
 <img src={blogData.authorImg} alt="" className="h-[50px] w-[50px] rounded-[50%]" />
-   <span className="flex flex-col gap-y-[10px]">
+   <span className="flex flex-col gap-y-[5px]">
     <h4 className="font-bold text-[#f1f1f1]">{blogData.author}</h4>
     <h4 className="font-600 text-[grey]">{blogData.roles}</h4>
    </span>
 </span>
+
+</div>
+
     </div>
   );
 };
