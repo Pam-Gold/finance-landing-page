@@ -19,14 +19,24 @@ const BlogDetails = () => {
         {blogData.title}
       </h1>
 
-      <div className="flex items-center gap-x-[15px] text-[grey]">
-        <img src={blogData.authorImg} alt="" className="h-[40px] w-[40px] rounded-[50%]" />
+      <div className="flex items-center gap-x-[15px] text-[grey] [&>h4]:sm: text-[13px] [&>h4]:md: text-[16px] [&>h4]:lg:text-[1rem] [&>h4]:xl:text-[1rem]">
+        <img
+          src={blogData.authorImg}
+          alt=""
+          className="h-[40px] w-[40px] rounded-[50%]"
+        />
         <h4 className="font-bold">{blogData.author}</h4>
         <span className="h-[2.5px] w-[2.5px] bg-[grey] rounded-[50%]"></span>
         <h4 className="font-600">{blogData.date}</h4>
         <span className="h-[2.5px] w-[2.5px] bg-[grey] rounded-[50%]"></span>
-        <h4 className="font-600"><i className="fa-solid fa-book-open text-[grey] text-[14px] mr-[8px]"></i>{blogData.time} read</h4>
+        <h4 className="font-600">
+          <i className="fa-solid fa-book-open text-[grey] text-[14px] mr-[8px]"></i>
+          {blogData.time} read
+        </h4>
       </div>
+
+      <p className="text-[grey]">
+      </p>
     </div>
   );
 };
