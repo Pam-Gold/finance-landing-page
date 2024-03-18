@@ -19,7 +19,7 @@ const BlogDetails = () => {
         {blogData.title}
       </h1>
 
-      <div className="flex items-center gap-x-[12px] text-[grey] [&>h4]:sm: text-[11px] [&>h4]:md: text-[13px] [&>h4]:lg:text-[1rem] [&>h4]:xl:text-[1rem]">
+      <div className="flex items-center gap-x-[8px] text-[grey] [&>h4]:sm: text-[11px] [&>h4]:md: text-[13px] [&>h4]:lg:text-[1rem] [&>h4]:xl:text-[1rem]">
         <img
           src={blogData.authorImg}
           alt=""
@@ -35,23 +35,27 @@ const BlogDetails = () => {
         </h4>
       </div>
 
-    <p className="text-[#f1f1f1] p-[5px] text-[1.2rem] leading-[1.9]">{blogData.body}</p>  
+      <p className="text-[#f1f1f1] p-[5px] text-[1.2rem] leading-[1.9]">
+        {blogData.body}
+      </p>
 
-<div className="flex flex-col gap-y-[10px] self-start">
+      <div className="flex flex-col gap-y-[10px] self-start">
+        <h6 className="text-[grey] text-[18px] font-bold self-start p-[6px]">
+          Written by
+        </h6>
 
-
-<h6 className="text-[grey] text-[18px] font-bold self-start p-[6px]">Written by</h6>
-
-<span className="flex items-center self-start p-[12px] gap-x-[35px]">
-<img src={blogData.authorImg} alt="" className="h-[50px] w-[50px] rounded-[50%]" />
-   <span className="flex flex-col gap-y-[5px]">
-    <h4 className="font-bold text-[#f1f1f1]">{blogData.author}</h4>
-    <h4 className="font-600 text-[grey]">{blogData.roles}</h4>
-   </span>
-</span>
-
-</div>
-
+        <span className="flex items-center self-start p-[12px] gap-x-[35px]">
+          <img
+            src={blogData.authorImg}
+            alt=""
+            className="h-[50px] w-[50px] rounded-[50%]"
+          />
+          <span className="flex flex-col gap-y-[5px]">
+            <h4 className="font-bold text-[#f1f1f1]">{blogData.author}</h4>
+            <h4 className="font-600 text-[grey]">{blogData.roles}</h4>
+          </span>
+        </span>
+      </div>
     </div>
   );
 };
