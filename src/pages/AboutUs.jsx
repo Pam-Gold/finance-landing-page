@@ -2,10 +2,11 @@ import { motion } from "framer-motion";
 
 import TeamProfile from "../components/TeamProfile";
 import leaderProfileDb from "../data/leaderProfileDb.json";
+import Footer from "../components/Footer";
 
 const AboutUs = () => {
   return (
-    <main className="h-[fit-content] w-full bg-white pt-[50px] flex flex-col gap-[15px] pb-[20px]">
+    <main className="h-[fit-content] w-full bg-white pt-[50px] flex flex-col gap-[15px] ">
       <section className="h-[fit-content] w-full flex sm: flex-col md: flex-col lg:flex-row xl:flex-row">
         <div className=" pt-[70px] flex flex-col justify-center p-[12px] gap-y-[25px] sm: h-1/2 sm: w-full md: h-1/2 md: w-full lg:h-full lg:w-1/2 xl:h-full xl:w-1/2">
           <h1 className="text-[2rem] font-madimi-one">Who we are</h1>
@@ -122,6 +123,7 @@ const AboutUs = () => {
           />
         </div>
       </section>
+      <Footer/>
     </main>
   );
 };

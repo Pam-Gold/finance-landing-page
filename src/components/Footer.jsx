@@ -2,21 +2,26 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="h-[500px] w-full justify-between  p-[15px] bg-black text-[grey] flex sm: flex-col  md: flex-col lg:flex-row lg:items-center xl:flex-row xl:items-center">
-      <section>
+    <footer className="h-[fit-content] w-full bg-black text-[grey]  p-[15px]">
+      <Link to="/">
         <img
           src="https://pamgold-financev1.netlify.app/assets/pamgold-logo-B1Og_3T6.png"
           alt=""
-          className="h-[50px] w-[50px]"
+          className="h-[50px] w-[50px] mb-[35px]"
         />
+      </Link>
+        <div className="justify-between gap-[25px]   flex sm: flex-col  md: flex-col lg:flex-row xl:flex-row">
 
-        <ul>
-          <h4>Company</h4>
+       
+      <section>
+
+        <ul className="flex flex-col gap-y-[12px]">
+          <h4 className="text-white font-bold font-montserrat">Company</h4>
           <li>
-            <Link>About Us</Link>
+            <Link to="about">About Us</Link>
           </li>
           <li>
-            <Link>Blogs</Link>
+            <Link to="blog">Blogs</Link>
           </li>
           <li>
             <Link>Contact Us</Link>
@@ -25,13 +30,13 @@ const Footer = () => {
       </section>
       {/*  */}
       <section>
-        <ul>
-          <h4>Resources</h4>
+        <ul className="flex flex-col gap-y-[12px]">
+          <h4 className="text-white font-bold font-montserrat">Resources</h4>
           <li>
             <Link>Privacy Policy</Link>
           </li>
           <li>
-            <Link>Terms & Conditions</Link>
+            <Link>Terms</Link>
           </li>
           <li>
             <Link>Security</Link>
@@ -40,17 +45,19 @@ const Footer = () => {
       </section>
       {/*  */}
       <section>
-        <ul>
-          <h4>Discover</h4>
+        <ul className="flex flex-col gap-y-[12px]">
+          <h4 className="text-white font-bold font-montserrat">Discover</h4>
           <li>
             <Link>Personal</Link>
           </li>
           <li>
-            <Link>Discover</Link>
+            <Link>Business</Link>
           </li>
-         
         </ul>
       </section>
+      </div>
+
+      <h4 className="mt-[30px] text-[14px] text-[#555]">&copy; PamGold.Dev 2024</h4>
     </footer>
   );
 };
