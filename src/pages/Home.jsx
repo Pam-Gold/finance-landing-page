@@ -18,6 +18,7 @@ import feedbackFeature from "../assets/images/undraw_feedback_re_urmj.svg";
 
 import review from "../data/reviewDb.json";
 import Review from "../components/Review";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -414,7 +415,7 @@ const Home = () => {
         </section>
       </div>
       {/*  */}
-      <section className="h-[fit-content] w-full bg-black p-[8px] gap-y-[20px] flex flex-col relative">
+      <section className="h-[fit-content] w-full bg-[#333] p-[8px] gap-y-[20px] flex flex-col relative">
         <h2 className="text-[1.2rem] text-white text-center font-madimi-one">
           Discover Why Our Customers Love Us
         </h2>
@@ -427,6 +428,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </main>
   );
 };
