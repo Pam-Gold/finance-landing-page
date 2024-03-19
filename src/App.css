@@ -6,7 +6,7 @@
 }
 
 .cta-animate-wrapper span {
-  animation: scrollUp 16s ease-in-out infinite;
+  animation: scrollUp 12s ease-in-out infinite;
   animation-delay: 1s;
   color: #f9a826;
 }
@@ -35,7 +35,7 @@
     overflow: hidden;
   }
   .review-container {
-    animation: infiniteCart 45s linear infinite;
+    animation: infiniteCart 50s linear infinite;
   }
   @keyframes scrollUp {
     0% {
@@ -96,7 +96,7 @@
     overflow: hidden;
   }
   .review-container {
-    animation: infiniteCart 35s linear infinite;
+    animation: infiniteCart 45s linear infinite;
   }
 
   @keyframes scrollUp {
