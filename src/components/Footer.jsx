@@ -16,7 +16,7 @@ const Footer = () => {
       <section>
 
         <ul className="flex flex-col gap-y-[12px]">
-          <h4 className="text-white font-bold font-montserrat">Company</h4>
+          <h4 className="text-white font-bold font-montserrat text-[1.2rem]">Company</h4>
           <li>
             <Link to="about">About Us</Link>
           </li>
@@ -31,7 +31,7 @@ const Footer = () => {
       {/*  */}
       <section>
         <ul className="flex flex-col gap-y-[12px]">
-          <h4 className="text-white font-bold font-montserrat">Resources</h4>
+          <h4 className="text-white font-bold font-montserrat text-[1.2rem]">Resources</h4>
           <li>
             <Link>Privacy Policy</Link>
           </li>
@@ -46,7 +46,7 @@ const Footer = () => {
       {/*  */}
       <section>
         <ul className="flex flex-col gap-y-[12px]">
-          <h4 className="text-white font-bold font-montserrat">Discover</h4>
+          <h4 className="text-white font-bold font-montserrat text-[1.2rem]">Discover</h4>
           <li>
             <Link>Personal</Link>
           </li>

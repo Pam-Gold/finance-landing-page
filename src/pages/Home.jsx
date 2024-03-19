@@ -415,7 +415,7 @@ const Home = () => {
         </section>
       </div>
       {/*  */}
-      <section className="h-[fit-content] w-full bg-[#333] p-[8px] gap-y-[20px] flex flex-col relative">
+      <section className="h-[fit-content] w-full bg-[#111] p-[8px] gap-y-[20px] flex flex-col relative">
         <h2 className="text-[1.2rem] text-white text-center font-madimi-one">
           Discover Why Our Customers Love Us
         </h2>
