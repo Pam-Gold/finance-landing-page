@@ -95,11 +95,11 @@ const AboutUs = () => {
 
       {/*  */} 
 
-      <section className="sm: h-[700px] md: h-[700px] lg:h-[450px] xl:h-[450px] w-full gap-[50px] bg-[#f9a826] flex sm: flex-col md :flex-col lg:flex-row xl:flex-row ">
+      <section className="sm: h-[fit-content] md: h-[fit-content] lg:h-[450px] xl:h-[450px] w-full gap-[50px] bg-[#f9a826] flex sm: flex-col md :flex-col lg:flex-row xl:flex-row ">
         <motion.div
-          initial={{ y: -300 }}
-          whileInView={{ y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay:0.3 }}
           className=" flex flex-col  justify-center items-center gap-y-[12px] sm: h-1/2 sm: w-full sm: p-[15px] md: h-1/2 md: w-full md: p-[15px] lg:h-full lg:w-1/2 lg:p-[50px] xl:h-full xl:w-1/2 xl:p-[50px]"
         >
           <h2 className="text-[black] font-bold font-madimi-one text-[2rem]">
@@ -113,14 +113,12 @@ const AboutUs = () => {
           </p>
         </motion.div>
 
-        <div className=" flex justify-center relative items-center sm: h-1/2 sm: w-full md: h-1/2 md: w-full lg:h-full lg:w-1/2 xl:h-full xl:w-1/2">
-          <motion.img
-            initial={{ y: 300 }}
-            whileInView={{ y: 0 }}
-            transition={{ duration: 0.8 }}
+        <div className=" flex justify-center  items-center sm: h-1/2 sm: w-full md: h-1/2 md: w-full lg:h-full lg:w-1/2 xl:h-full xl:w-1/2">
+          <img
+           
             src="https://media.istockphoto.com/id/2050798678/photo/casual-business-meeting.jpg?s=612x612&w=0&k=20&c=zrgzYLbjT3xUtAArkk28AaVj_HLuReSIic2DQWX89Gc="
             alt=""
-            className="h-full w-full relative"
+            className="h-full w-full "
           />
         </div>
       </section>
