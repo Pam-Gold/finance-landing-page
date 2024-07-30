@@ -2,8 +2,9 @@ const express = require('express');
 const app = express();
 const port = 3003;
 
-app.get('./', (req, res) => {
-    res.send('Hello')
+// Your other middleware and routes
+app.get('/', (req, res) => {
+    res.json({ message: 'Hello from backend'})
 })
 
 app.listen(port, () => {
